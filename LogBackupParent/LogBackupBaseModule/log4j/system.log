@@ -1,0 +1,48 @@
+2014-06-26 10:33:52,382 [main] INFO  system.logger - LogBackupBaseModule.logBackup.LogBackupMain got Exception! 
+java.io.FileNotFoundException: src\main\resources\b.log* (文件名、目录名或卷标语法不正确。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at LogBackupBaseModule.logBackup.LogBackupMain.backUpLogFile(LogBackupMain.java:38)
+	at LogBackupBaseModule.serverMain.ServerMain.main(ServerMain.java:16)
+2014-06-26 10:37:39,884 [main] INFO  system.logger - LogBackupBaseModule.logBackup.LogBackupMain got Exception! 
+java.io.FileNotFoundException: src\main\resources\* (文件名、目录名或卷标语法不正确。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at LogBackupBaseModule.logBackup.LogBackupMain.backUpLogFile(LogBackupMain.java:38)
+	at LogBackupBaseModule.serverMain.ServerMain.main(ServerMain.java:16)
+2014-06-26 10:38:08,309 [main] INFO  system.logger - LogBackupBaseModule.logBackup.LogBackupMain got Exception! 
+java.io.FileNotFoundException: src.main.resources.* (文件名、目录名或卷标语法不正确。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at LogBackupBaseModule.logBackup.LogBackupMain.backUpLogFile(LogBackupMain.java:38)
+	at LogBackupBaseModule.serverMain.ServerMain.main(ServerMain.java:16)
+2014-06-26 10:38:51,272 [main] INFO  system.logger - LogBackupBaseModule.logBackup.LogBackupMain got Exception! 
+java.io.FileNotFoundException: src\main\resources\? (文件名、目录名或卷标语法不正确。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at LogBackupBaseModule.logBackup.LogBackupMain.backUpLogFile(LogBackupMain.java:38)
+	at LogBackupBaseModule.serverMain.ServerMain.main(ServerMain.java:16)
+2014-06-26 10:41:47,057 [main] INFO  system.logger - LogBackupBaseModule.logBackup.LogBackupMain got Exception! 
+java.io.FileNotFoundException: src\main\resources\b.log*.txt (文件名、目录名或卷标语法不正确。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at LogBackupBaseModule.logBackup.LogBackupMain.backUpLogFile(LogBackupMain.java:38)
+	at LogBackupBaseModule.serverMain.ServerMain.main(ServerMain.java:16)
+2014-06-26 10:42:07,291 [main] INFO  system.logger - LogBackupBaseModule.logBackup.LogBackupMain got Exception! 
+java.io.FileNotFoundException: src\main\resources\b.log (系统找不到指定的文件。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at LogBackupBaseModule.logBackup.LogBackupMain.backUpLogFile(LogBackupMain.java:38)
+	at LogBackupBaseModule.serverMain.ServerMain.main(ServerMain.java:16)
+2014-06-26 10:42:36,324 [main] INFO  system.logger - LogBackupBaseModule.logBackup.LogBackupMain got Exception! 
+java.io.FileNotFoundException: src\main\resources (拒绝访问。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at LogBackupBaseModule.logBackup.LogBackupMain.backUpLogFile(LogBackupMain.java:38)
+	at LogBackupBaseModule.serverMain.ServerMain.main(ServerMain.java:16)
+2014-06-26 10:43:03,703 [main] INFO  system.logger - LogBackupBaseModule.logBackup.LogBackupMain got Exception! 
+java.io.FileNotFoundException: src\main\resources\folder (拒绝访问。)
+	at java.io.FileInputStream.open(Native Method)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at LogBackupBaseModule.logBackup.LogBackupMain.backUpLogFile(LogBackupMain.java:38)
+	at LogBackupBaseModule.serverMain.ServerMain.main(ServerMain.java:16)

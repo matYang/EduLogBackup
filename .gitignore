@@ -1,0 +1,10 @@
+.DS_Store
+*.prefs
+*.pref
+dump.rdb
+*.class
+*.jar
+*/target
+*.classpath
+*.project
+*.lst
